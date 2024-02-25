@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let obj = HomeViewController()
+        obj.setUsername("Rashid Iqubal")
+        obj.greetingCustomer("Ashish Pal", customerId: 2345)
     }
 
 
